@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+      <!-- Heading -->
+    <div class="container rounded">
+      <div class="py-4 my-4 text-center bg-light text-warning clearfix">
+          <img src="/assets/Cute.jpg" class="img-thumbnail cat m-0">
+        <h1 class="display-4 font-weight-bold">JavaScript Basics quiz</h1>
+      </div>
+      <div class="container text-center display-4 my-2 py-4 bg-success rounded text-white d-none final">
+        <p class="lead">Your score is <span class="score">0</span>%</p>
+    </div>
+      <!-- form -->
+      <div class="container bg-primary text-white rounded">
+       
+        <form class="quiz-form">
+          <div class="form-group">
+
+            <!-- question 1 -->
+            <div class="pb-5">
+              <p class="lead font-weight-bold">
+                1. Grand Central Terminal, Park Avenue, New York is the world's
+              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="a" checked>
+                <label class="form-check-label" for="q1">
+                  A) largest railway station.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="q1" value="b">
+                <label class="form-check-label" for="q1">
+                  B) longest railway station.
+                </label>
+              </div>
+            </div>
+
+            <!-- question 2-->
+            <div class="pb-5">
+                <p class="lead font-weight-bold">
+                  2. Entomology is the science that studies
+                </p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" value="a" checked>
+                  <label class="form-check-label" for="q2">
+                    A) Behavior of human beings.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" value="b">
+                  <label class="form-check-label" for="q2">
+                    B) Insects.
+                  </label>
+                </div>
+              </div>
+
+              <!-- question 3-->
+            <div class="pb-5">
+                <p class="lead font-weight-bold">
+                  3. Hitler party which came into power in 1933 is known as
+                </p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" value="a" checked>
+                  <label class="form-check-label" for="q3">
+                    A) Nazi Party.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" value="b">
+                  <label class="form-check-label" for="q3">
+                    B) Labour Party.
+                  </label>
+                </div>
+              </div>
+
+              <!-- question 4-->
+            <div class="pb-5">
+                <p class="lead font-weight-bold">
+                  4. In which year of First World War Germany declared war on Russia and France?
+                </p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q4" value="a" checked>
+                  <label class="form-check-label" for="q4">
+                    A) 1914.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q4" value="b">
+                  <label class="form-check-label" for="q4">
+                    B) 1915.
+                  </label>
+                </div>
+              </div>
+
+              <!-- question 5-->
+            <div class="pb-5">
+                <p class="lead font-weight-bold">
+                  5. India has largest deposits of ____ in the world.
+                </p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q5" value="a" checked>
+                  <label class="form-check-label" for="q5">
+                    A) copper.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q5" value="b">
+                  <label class="form-check-label" for="q5">
+                    B) mica.
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-warning my-2 text-center">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="/script/app.js"></script>
+  </body>
+</html>
